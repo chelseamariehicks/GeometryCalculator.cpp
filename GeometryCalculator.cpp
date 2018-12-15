@@ -92,7 +92,7 @@ function to calculate the area the user requested. */
                 break;
         }
     //Informs user if they made an invalid choice, any number != 1-4
-    else if (choice != 1 || choice != 2 || choice != 3 || choice != 4)
+    else if (choice != 1 && choice != 2 && choice != 3 && choice != 4)
     {
         cout << "Invalid entry! Please select an option between 1-4." << endl;
     }
